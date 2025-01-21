@@ -10,6 +10,7 @@ public class FollowWP : MonoBehaviour
     public float speed = 10.0f;
     public float rotSpeed = 10.0f;
     public float LookAhead = 10.0f;
+
     GameObject tracker;
     // Start is called before the first frame update
     void Start()
