@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Graph : MonoBehaviour
+public class Graph 
 {
     List<Edge> edges = new List<Edge>();
     List<Node> nodes = new List<Node>();
@@ -44,6 +44,7 @@ public class Graph : MonoBehaviour
 
         if (start == null && end == null)
         {
+            pathList.Clear();
             return false;
         }
 
